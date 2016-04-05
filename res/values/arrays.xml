@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="region">
+        <item>全北京</item>
+        <item>朝阳</item>
+        <item>海淀</item>
+        <item>东城</item>
+        <item>西城</item>
+        <item>崇文</item>
+        <item>宣武</item>
+        <item>丰台</item>
+        <item>通州</item>
+        <item>石景山</item>
+        <item>房山</item>
+        <item>昌平</item>
+        <item>大兴</item>
+        <item>顺义</item>
+        <item>密云</item>
+        <item>怀柔</item>
+        <item>延庆</item>
+        <item>平谷</item>
+        <item>门头沟</item>
+    </string-array>
+    
+    <string-array name="price">
+        <item>价格</item>
+        <item>50元以下</item>
+        <item>50-100元</item>
+        <item>100-150元</item>
+        <item>150-200元</item>
+        <item>200-250元</item>
+        <item>250-300元</item>
+        <item>300元以上</item>
+    </string-array>
+    
+    <string-array name="category">
+        <item>类型</item>
+        <item>整租</item>
+        <item>单间出租</item>
+        <item>单间出租(隔断)</item>
+       	<item>床位出租</item>	
+    </string-array>
+    
+    <string-array name="nearby">
+        <item>附近</item>
+        <item>1000米</item>
+        <item>3000米</item>
+        <item>5000米</item>
+    </string-array>
+</resources>

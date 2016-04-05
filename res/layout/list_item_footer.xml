@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 列表底部的footer view -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="50dp"
+    android:background="#FFFFFF"
+    android:clickable="true" >
+
+	<TextView
+	    android:id="@+id/main_text"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_centerHorizontal="true"
+	    android:layout_centerVertical="true"
+	    android:text="点击查看更多"
+	    android:textAppearance="?android:attr/textAppearanceMedium"
+	    android:textColor="@color/contents_text" />
+
+	<ProgressBar
+	    android:id="@+id/progressBar"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_marginLeft="20dp"
+	    android:visibility="invisible" 
+	    style="@android:style/Widget.ProgressBar.Inverse"/>
+
+</RelativeLayout>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 点击地图标记后，弹出的view -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/marker_pop"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="12dp"
+    android:layout_marginTop="12dp"
+    android:background="@drawable/pop"
+    android:clickable="true" >
+
+    <TextView
+        android:id="@+id/text_pop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:lines="3"
+        android:text="今天是风蓝，明天是雨蓝"
+        android:textAppearance="?android:attr/textAppearanceSmall"
+        android:textColor="@color/contents_text" />
+
+</RelativeLayout>
